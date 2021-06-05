@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  color: #111;
+  position: relative;
+}
+.container {
+  max-width: 90vw;
+  height: 80vh;
+  margin: 0 auto;
+}
+.container-hour {
+  padding: 1rem 0;
+  border-radius: 4px;
+}
+.container-hour-date {
+  font-size: 1rem;
+  display: block;
+}
+.container-hour-datetime,
+.container-hour-price {
+  font-size: 4rem;
+  display: block;
+  line-height: 1;
+  background: #fff;
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+}
+
+.container-hour-datetime {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  width: max-content;
+}
+.container-euro-kwm {
+  font-size: 1rem;
+}
